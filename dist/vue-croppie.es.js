@@ -138,7 +138,7 @@ var VueCroppie = {
   }
 };
 
-if (window && window.Vue) {
+if (typeof window !== 'undefined' && window.Vue) {
   Vue.use(VueCroppie);
 }
 
